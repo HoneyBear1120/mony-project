@@ -1,0 +1,30 @@
+/* .rotate {
+    animation: rotation 40s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  } */
+
+  /* body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+         -o-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+} */
+
+/* canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */

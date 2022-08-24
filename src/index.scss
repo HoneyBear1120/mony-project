@@ -1,0 +1,95 @@
+.parallax-section{
+    position: relative;
+    z-index: 1;
+    background-color: #08090A;
+    .parallax-div{
+        margin-bottom: -100vh !important;
+        overflow: visible;
+        min-height: 200vh !important;
+        position: relative !important;
+        .parallax-sub-div{
+            min-height: 100vh;
+            overflow: hidden !important;
+            position: sticky !important;
+            top: 0;
+            // padding-top: 100px;
+        }
+        @media (max-width: 970px) {
+            margin-bottom: 0vh !important;
+        }
+    }
+}
+.parallax-section1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -100vh !important;
+    background-color: #08090A;
+    position: sticky !important;
+    top: 75vh;
+    .parallax-div{
+        // margin-bottom: 30px !important;
+        overflow: visible;
+        // min-height: 200vh !important;
+        position: relative !important;
+      
+        overflow: hidden !important;
+       
+      
+    }
+    @media (max-width: 767px) {
+        z-index: 1;
+        height: 50vh;
+        position: sticky !important;
+        top: 40vh;
+        .parallax-div {
+            overflow: visible;
+        
+            position: relative !important;
+        
+            overflow: hidden !important;
+        }
+    }
+}
+#globecanvas canvas{
+    display: block !important;
+    width: 60% !important;
+    height: 50% !important;
+    margin-left: 20% !important;
+    // width: 1079px !important;
+    // height: 892px !important;
+    // max-width: 1800px !important;
+    // max-height: 850px;
+    // background-color: unset !important;
+}
+.cp {
+    cursor: pointer;
+}
+.slick-slide div {
+    outline: none;
+    // padding: 8px 0;
+    // font-size: 1.5rem;
+  }
+
+  .scrolling-slide-effect::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrolling-slide-effect {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+} 
+@media screen and (min-width: 1024px){
+    
+    .my-class{
+        overflow: hidden;
+    }
+}
+.buy-mony-coin-btn{
+    font-size: 17px !important;
+    width: 161px !important;
+    height: 51px !important;
+    padding: 12px !important;
+}

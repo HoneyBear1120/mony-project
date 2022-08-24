@@ -1,0 +1,20 @@
+.blog-carousel .slick-track
+{
+    display: flex !important;
+}
+
+.blog-carousel .slick-slide
+{
+    height: inherit !important;
+    width: 430px !important;
+}
+@media screen and (max-width: 991px) {
+    button.prev.slick-arrow.btn.btn-link.p-0 {
+        top: -54px !important;
+        right: 13px !important;
+    }
+    button.next.slick-arrow.btn.btn-link.p-0 {
+        top: -54px !important;
+        right: 50px !important;
+    }
+}

@@ -1,0 +1,31 @@
+.customer-carousel .slick-list {height: 661px !important;}
+
+@media screen and (min-width: 1024px){
+    .scrolling-slide-effect{
+        height: 600px;
+        /* width: 600px; */
+        overflow: scroll;
+        margin-bottom: 100px;
+    }
+    .set-position{
+        /* touch-action: none; */
+        position: absolute;
+        z-index: 99999999999999999;
+        right: 62px;
+        /* bottom: 104px; */
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .set-position img{
+      max-width: 70% !important;
+      /* top: 0; */
+  }
